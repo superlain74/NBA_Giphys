@@ -1,5 +1,5 @@
 body{
-	background: url)"../images/ant.jpg");
+	background: url("../images/ant.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: black;
@@ -16,14 +16,16 @@ img {
 
 #gifLogo {
 	height: 30px;
-	width: 60px;
-	image-rendering: center;
+	width: 90px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .btn {
 	/* adding spacing between each button*/
 	margin: 3px;
-	background-color: #999999;
+	background-color: black;
 	border-color: #fff;
 }
 
@@ -41,6 +43,11 @@ img {
 
 .jumbotron {
 	background-color: inherit;
+	font-weight: 600;
+}
+
+.jumbotron p {
+	font-weight: 600;
 }
 
 .jumbotron .h1, .jumbotron h1 {
